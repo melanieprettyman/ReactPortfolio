@@ -1,0 +1,142 @@
+[
+  {
+    "id": "m1",
+    "name": "Galactic Mac & Cheese",
+    "price": "8.99",
+    "description": "A swirling galaxy of creamy cheddar cheese entangled with perfectly cooked macaroni strands, crowned with a meteor shower of crispy breadcrumbs. A comforting classic from Earth, reimagined for the space traveler.",
+    "image": "images/mac-and-cheese.jpg"
+  },
+  {
+    "id": "m2",
+    "name": "Margherita Pizza from Mars",
+    "price": "12.99",
+    "description": "A Martian twist on a classic, with fresh mozzarella clouds, tomato dust, and basil leaves, all resting on a thin, crispy crust. A slice of the Red Planet in every bite.",
+    "image": "images/margherita-pizza.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "Caesar Salad Satellite",
+    "price": "7.99",
+    "description": "Romaine asteroids tossed in a cosmic Caesar dressing, topped with crouton comets and parmesan shards. A stellar choice for the light-hearted astronaut.",
+    "image": "images/caesar-salad.jpg"
+  },
+  {
+    "id": "m4",
+    "name": "Spaghetti Carbonara Quasar",
+    "price": "10.99",
+    "description": "Al dente spaghetti strands caught in a creamy sauce black hole, made from egg yolk, pecorino cheese, pancetta stars, and a sprinkle of pepper from the cosmos.",
+    "image": "images/spaghetti-carbonara.jpg"
+  },
+  {
+    "id": "m5",
+    "name": "Veggie Burger UFO",
+    "price": "9.99",
+    "description": "A mysterious juicy veggie patty from another world, served on a whole grain bun spaceship with lettuce, tomato, and a tangy alien sauce.",
+    "image": "images/veggie-burger.jpg"
+  },
+  {
+    "id": "m6",
+    "name": "Grilled Chicken Sandwich Comet",
+    "price": "10.99",
+    "description": "Tender grilled chicken breast flying through space with avocado, bacon, lettuce, and honey mustard on a toasted bun, leaving a tasty trail.",
+    "image": "images/grilled-chicken-sandwich.jpg"
+  },
+  {
+    "id": "m7",
+    "name": "Steak Frites Starship",
+    "price": "17.99",
+    "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter, ready to take you on a culinary journey across the universe.",
+    "image": "images/steak-frites.jpg"
+  },
+  {
+    "id": "m8",
+    "name": "Sushi Roll Platter Nebula",
+    "price": "15.99",
+    "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado, each roll a planet in the sushi solar system.",
+    "image": "images/sushi-roll-platter.jpg"
+  },
+  {
+    "id": "m9",
+    "name": "Chicken Curry Constellation",
+    "price": "13.99",
+    "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce galaxy, served with basmati rice stars.",
+    "image": "images/chicken-curry.jpg"
+  },
+  {
+    "id": "m10",
+    "name": "Vegan Buddha Bowl Galaxy",
+    "price": "11.99",
+    "description": "A hearty bowl filled with quinoa asteroids, roasted veggie planets, avocado moons, and a tahini dressing comet tail.",
+    "image": "images/vegan-buddha-bowl.jpg"
+  },
+  {
+    "id": "m11",
+    "name": "Seafood Paella Planet",
+    "price": "19.99",
+    "description": "A Spanish delicacy filled with saffron-infused rice stars, shrimp comets, mussel moons, and chorizo asteroids.",
+    "image": "images/seafood-paella.jpg"
+  },
+  {
+    "id": "m12",
+    "name": "Pancake Stack Black Hole",
+    "price": "8.99",
+    "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries, a gravitational culinary force not to be missed.",
+    "image": "images/pancake-stack.jpg"
+  },
+  {
+    "id": "m13",
+    "name": "Miso Ramen Meteor Shower",
+    "price": "12.99",
+    "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions, each ingredient a meteor streaking through the night sky.",
+    "image": "images/miso-ramen.jpg"
+  },
+  {
+    "id": "m14",
+    "name": "Beef Tacos Spacecraft",
+    "price": "9.99",
+    "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream, ready to launch your taste buds on a mission of discovery.",
+    "image": "images/beef-tacos.jpg"
+  },
+  {
+    "id": "m15",
+    "name": "Chocolate Brownie Supernova",
+    "price": "5.99",
+    "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce, exploding with flavor.",
+    "image": "images/chocolate-brownie.jpg"
+  },
+  {
+    "id": "m16",
+    "name": "Lobster Bisque Galaxy",
+    "price": "14.99",
+    "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy, a taste of the ocean's depth brought to space.",
+    "image": "images/lobster-bisque.jpg"
+  },
+  {
+    "id": "m17",
+    "name": "Mushroom Risotto Meteorite",
+    "price": "13.99",
+    "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan, as rich and mysterious as a meteorite's journey.",
+    "image": "images/mushroom-risotto.jpg"
+  },
+  {
+    "id": "m18",
+    "name": "Eggplant Parmesan UFO",
+    "price": "11.99",
+    "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses, a dish that's out of this world.",
+    "image": "images/eggplant-parmesan.jpg"
+  },
+  {
+    "id": "m19",
+    "name": "Lemon Cheesecake Moon",
+    "price": "6.99",
+    "description": "A creamy cheesecake with a tangy lemon flavor, orbiting a crumbly biscuit base, reminiscent of the moon's surface. A celestial dessert that's out of this world.",
+    "image": "images/lemon-cheesecake.jpg"
+  },
+  {
+    "id": "m20",
+    "name": "Falafel Wrap Comet",
+    "price": "8.99",
+    "description": "Crispy falafels wrapped in a warm pita, with lettuce, tomatoes, and a tahini sauce, zooming through your taste buds like a comet through the cosmos.",
+    "image": "images/falafel-wrap.jpg"
+  }
+]
