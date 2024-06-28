@@ -3,10 +3,10 @@ import { Card, CardMedia, CardContent, Grid } from '@mui/material';
 import Tag from "./Tag";
 
 export default function PortfolioCard({ url, img, title, tags }) {
-     const styles = {
+    const styles = {
         card: {
-            display: 'flex', // Using flex to manage internal spacing
-            flexDirection: 'column', // Stack media and content vertically
+            display: 'flex',
+            flexDirection: 'column',
             cursor: 'pointer',
             transition: 'box-shadow 0.3s',
             '&:hover': {
@@ -16,35 +16,36 @@ export default function PortfolioCard({ url, img, title, tags }) {
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center'
             },
-            height: '100%', // Make card fill the parent container
+            height: '100%',
+            maxWidth: { xs: '100%', sm: '300px', md: '300px', lg: '300px', xl: '300px' }, // Limit max width for large screens
         },
         media: {
-            height: { xs: 150, sm: 250, md: 300},
-            width:{ xs: 140, sm: 260, md: 290 },
+            height: { xs: 150, sm: 250, md: 300 },
+            width: '100%', // Make media width 100% of the card width
         },
         content: {
-            flexGrow: 1, // Allows content to expand and fill the space
+            flexGrow: 1,
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'space-between', // Space distribution for title and tags
-            padding: '16px' // Padding inside content for overall spacing
+            justifyContent: 'space-between',
+            padding: '16px'
         },
         title: {
-            marginBottom: '10px', // Space between title and tags
+            marginBottom: '10px',
             display: 'block',
             whiteSpace: 'normal',
         },
         tagsContainer: {
-            display: 'flex', // Optional: for layout of tags
-            flexWrap: 'wrap', // Optional: allows tags to wrap
-            gap: '4px' // Optional: space between tags
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: '4px'
         }
     };
 
     return (
-        <Grid item xs={12} sm={4} md={4} lg={4}>
-            <a href={url} style={{textDecoration: 'none'}}>
-                <Card sx={styles.card} >
+        <Grid item xs={12} sm={6} md={4} lg={3}>
+            <a href={url} style={{ textDecoration: 'none' }}>
+                <Card sx={styles.card}>
                     <CardMedia
                         component="img"
                         sx={styles.media}
@@ -55,12 +56,12 @@ export default function PortfolioCard({ url, img, title, tags }) {
                         <h5 className={styles.title}>{title}</h5>
                         <div style={styles.tagsContainer}>
                             {tags?.map((tag, index) => (
-                                <Tag key={index} label={tag.label} type={tag.type}/>
+                                <Tag key={index} label={tag.label} type={tag.type} />
                             ))}
                         </div>
                     </CardContent>
                 </Card>
             </a>
         </Grid>
-);
-};
+    );
+}
