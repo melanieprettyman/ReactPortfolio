@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardMedia, CardContent, Grid, Typography } from '@mui/material';
+import { Card, CardMedia, CardContent, Grid } from '@mui/material';
 import Tag from "./Tag";
 
 export default function PortfolioCard({ url, img, title, tags }) {
@@ -19,7 +19,8 @@ export default function PortfolioCard({ url, img, title, tags }) {
             height: '100%', // Make card fill the parent container
         },
         media: {
-            height: 300, // Consistent height for all images
+            height: { xs: 150, sm: 250, md: 300},
+            width:{ xs: 140, sm: 260, md: 290 },
         },
         content: {
             flexGrow: 1, // Allows content to expand and fill the space
@@ -29,7 +30,9 @@ export default function PortfolioCard({ url, img, title, tags }) {
             padding: '16px' // Padding inside content for overall spacing
         },
         title: {
-            marginBottom: '10px' // Space between title and tags
+            marginBottom: '10px', // Space between title and tags
+            display: 'block',
+            whiteSpace: 'normal',
         },
         tagsContainer: {
             display: 'flex', // Optional: for layout of tags
@@ -39,7 +42,7 @@ export default function PortfolioCard({ url, img, title, tags }) {
     };
 
     return (
-        <Grid item xs={12} sm={6} md={4} lg={3}>
+        <Grid item xs={12} sm={4} md={4} lg={4}>
             <a href={url} style={{textDecoration: 'none'}}>
                 <Card sx={styles.card} >
                     <CardMedia
